@@ -4,6 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive 3rd</title>
+    <style>
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        width: 100%;
+        gap: 20px;
+      }
+
+      .child {
+        width: 80%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        /* border: 2px solid black; */
+        box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+          -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+      }
+
+      .founder_image {
+        width: 100%;
+      }
+
+      .logo_image {
+        width: 50%;
+        margin-top: -15px;
+        margin-left: 20%;
+      }
+
+      h6 {
+        margin-top: -10px;
+      }
+    </style>
   </head>
 
   <body>
